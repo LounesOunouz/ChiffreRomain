@@ -11,6 +11,9 @@ public class ChiffreRomain {
 		if (nombre == 4) {
 			return SYMBOLES[11];
 		}
+		if (nombre == 9) {
+			return "IX";
+		}
 		StringBuilder st = new StringBuilder();
 		if (nombre >= 5) {
 			st.append("V");
