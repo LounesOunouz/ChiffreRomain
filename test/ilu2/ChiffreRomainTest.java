@@ -6,14 +6,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ChiffreRomainTest {
+	private ChiffreRomain cr;
 
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
+		 cr =new ChiffreRomain();
 	}
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testIterationOne() {
+		assertEquals("I", cr.toChiffresRomains(1));
 	}
 
+	
 }
