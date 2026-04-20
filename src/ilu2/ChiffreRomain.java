@@ -5,11 +5,12 @@ public class ChiffreRomain {
 	
 
 	public String toChiffresRomains(int nombre) {
-		return "I";
+		StringBuilder st=new StringBuilder();
+		for (int i=0;i<nombre;i++) {
+			st.append("I");
+		}
+		return st.toString();
 	}
-//	public static void main(String[] args) {
-//	ChiffreRomain chiffre=new ChiffreRomain();
-//		System.out.println(chiffre.toChiffresRomains(1));
-//	}
+
 
 }

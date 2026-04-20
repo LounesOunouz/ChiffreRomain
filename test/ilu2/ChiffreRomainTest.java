@@ -18,5 +18,10 @@ class ChiffreRomainTest {
 		assertEquals("I", cr.toChiffresRomains(1));
 	}
 
+	@Test
+	void testIterationTwo() {
+		assertEquals("II", cr.toChiffresRomains(2));
+		assertEquals("III", cr.toChiffresRomains(3));
+	}
 	
 }
