@@ -37,4 +37,12 @@ class ChiffreRomainTest {
 		assertEquals("IV", cr.toChiffresRomains(4));
 	}
 
+	@Test
+	void testIterationFive() {
+		assertEquals("V", cr.toChiffresRomains(5));
+		assertEquals("VI", cr.toChiffresRomains(6));
+		assertEquals("VII", cr.toChiffresRomains(7));
+		assertEquals("VIII", cr.toChiffresRomains(8));
+
+	}
 }
